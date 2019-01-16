@@ -1,0 +1,114 @@
+body,
+html {
+  margin: 0;
+  padding: 0;
+  font-family: "Sunflower", sans-serif;
+  color: white;
+  height: 100%;
+}
+
+#wrapper {
+  height: 100%;
+}
+
+.content {
+  background: #373a47;
+  /*background: linear-gradient(to right, #bfe2e2, #b4bad2);*/
+  height: 100%;
+  padding-top: 60px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  &.center {
+    justify-content: center;
+  }
+}
+
+header {
+  font-family: "Sunflower", sans-serif;
+  font-size: 16px;
+  background-color: #373a47;
+  color: white;
+  position: fixed;
+  height: 60px;
+  width: 100%;
+}
+
+.menu-link {
+  margin: 10px 10px 0px 10px;
+  float: right;
+  padding: 8px 16px 8px 16px;
+  cursor: pointer;
+}
+
+h1,
+h2,
+h3 {
+  color: #f57075;
+}
+
+a {
+  color: white;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-gap: 20px;
+  place-items: center;
+  margin-top: 80px;
+}
+
+.grid-item {
+  width: 250px;
+  height: 250px;
+  border: 3px solid white;
+  position: relative;
+  color: #f57075;
+  font-size: 20px;
+}
+
+.grid-img {
+  width: 250px;
+  height: 250px;
+  object-fit: cover;
+}
+
+#label-left {
+  position: absolute;
+  left: -90px;
+  text-align: right;
+  width: 100px;
+  transform: rotate(-10deg);
+}
+
+#label-right {
+  position: absolute;
+  right: -80px;
+  text-align: left;
+  width: 100px;
+  transform: rotate(10deg);
+}
+
+@media only screen and (max-width: 750px) {
+  .grid {
+    grid-template-columns: 1fr;
+  }
+
+  #label-left {
+    position: absolute;
+    left: -50px;
+    text-align: right;
+    width: 100px;
+    transform: rotate(-10deg);
+  }
+
+  #label-right {
+    position: absolute;
+    right: -50px;
+    text-align: left;
+    width: 100px;
+    transform: rotate(10deg);
+  }
+}
