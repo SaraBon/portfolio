@@ -50,10 +50,7 @@ class App extends Component {
                 href="https://sarabon.github.io/minesweeper-react/"
                 target="_blank"
               >
-                <img
-                  className="grid-img"
-                  src="https://sarabon.github.io/portfolio/public/img/calculator.PNG"
-                />
+                <img className="grid-img" src="img/minesweeper.PNG" />
               </a>
             </div>
             <div className="grid-item">
@@ -80,10 +77,7 @@ class App extends Component {
                 href="https://sarabon.github.io/Calculator-Vanilla-JS/"
                 target="_blank"
               >
-                <img
-                  className="grid-img"
-                  src="portfolio/public/img/calculator.PNG"
-                />
+                <img className="grid-img" src="img/calculator.PNG" />
               </a>
             </div>
           </div>
