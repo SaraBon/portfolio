@@ -37,7 +37,7 @@ class App extends Component {
                 </div>
               </div>
               <a href="https://match-names.herokuapp.com/" target="_blank">
-                <img className="grid-img" src="/img/matchnames.PNG" />
+                <img className="grid-img" src="img/matchnames.PNG" />
               </a>
             </div>
             <div className="grid-item">
@@ -50,7 +50,10 @@ class App extends Component {
                 href="https://sarabon.github.io/minesweeper-react/"
                 target="_blank"
               >
-                <img className="grid-img" src="/img/minesweeper.PNG" />
+                <img
+                  className="grid-img"
+                  src="https://sarabon.github.io/portfolio/public/img/calculator.PNG"
+                />
               </a>
             </div>
             <div className="grid-item">
@@ -64,7 +67,7 @@ class App extends Component {
                 href="https://sarabon.github.io/draggable-todo-react-redux/"
                 target="_blank"
               >
-                <img className="grid-img" src="/img/todo.PNG" />
+                <img className="grid-img" src="img/todo.PNG" />
               </a>
             </div>
             <div className="grid-item">
@@ -77,7 +80,10 @@ class App extends Component {
                 href="https://sarabon.github.io/Calculator-Vanilla-JS/"
                 target="_blank"
               >
-                <img className="grid-img" src="/img/calculator.PNG" />
+                <img
+                  className="grid-img"
+                  src="portfolio/public/img/calculator.PNG"
+                />
               </a>
             </div>
           </div>
